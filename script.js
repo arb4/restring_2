@@ -137,7 +137,7 @@ var style11 = {
 
 
 	var restring_nodo= L.geoJSON(restring_nodo, {
-	style: style3,
+	style: style5,
     onEachFeature: function (feature, layer) {
     layer.bindPopup(feature.properties.name+'</p>');
   }
